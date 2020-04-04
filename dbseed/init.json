@@ -1,0 +1,39 @@
+[
+    {
+      "nombre": "Esteban Alvarez",
+      "email": "201313872@gmail.com",
+      "password": 123456789,
+      "role": "ADMIN"
+    },
+    {
+        "nombre": "Usuario1",
+        "email": "user1@gmail.com",
+        "password": 123456789,
+        "role": "USER"
+      },
+      {
+        "nombre": "Usuario2",
+        "email": "user2@gmail.com",
+        "password": 123456789,
+        "role": "USER"
+      },
+      {
+        "nombre": "Usuario3",
+        "email": "user3@gmail.com",
+        "password": 123456789,
+        "role": "USER"
+      },
+      {
+        "nombre": "Usuario4",
+        "email": "user4@gmail.com",
+        "password": 123456789,
+        "role": "USER"
+      },       
+      {
+        "nombre": "Usuario5",
+        "email": "user5@gmail.com",
+        "password": 123456789,
+        "role": "USER"
+      }            
+      
+  ]

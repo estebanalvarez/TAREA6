@@ -7,14 +7,21 @@ const app = express();
 /**
  * GET ROUTE
  */
-app.get('/', function(req, res) {
+app.get('/getall', function(req, res) {
 
-    const all = getAll().then(u => {
+    const all = getAll().then(u => {        
         res.json(u)
     }).catch(er => {
         console.log(er);
     });
 
+});
+
+/**
+ * GET WORKING
+ */
+app.get('/test', function(req, res) {     
+        res.send(`Service working`)
 });
 
 /**

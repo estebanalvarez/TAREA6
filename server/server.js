@@ -12,7 +12,7 @@ app.use(bodyParser.json());
 app.use(require('./routes/usuario'));
 
 
-mongoose.connect('mongodb://localhost:27017/usuarios', (err, res) => {
+mongoose.connect('mongodb://mongo:27017/usuarios', (err, res) => {
 
     if (err) throw err;
 
